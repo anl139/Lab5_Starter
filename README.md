@@ -5,3 +5,7 @@ I would not use a unit test for the complete "message" feature of a messaging ap
 
 2) Unit testing the "max message length" feature
 For the "max message length" feature I would since it is typically implemented by a single validation function (e.g., `validateLength(text)`) that returns true or false. There would be clear inputs and outputs, making it ideal for fast, isolated unit tests.
+
+
+https://anl139.github.io/Lab5_Starter/explore.html
+https://anl139.github.io/Lab5_Starter/expose.html
