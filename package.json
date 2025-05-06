@@ -1,24 +1,13 @@
 {
-  "name": "lab5_starter",
-  "version": "1.0.0",
-  "description": "Andrew Lam",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anl139/Lab5_Starter.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/anl139/Lab5_Starter/issues"
-  },
-  "homepage": "https://github.com/anl139/Lab5_Starter#readme",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+},
+  "type": "module",
+  "jest": {
+    "transform": {},
+    "verbose": true
   }
 }
